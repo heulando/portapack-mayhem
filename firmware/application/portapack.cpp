@@ -398,7 +398,7 @@ static void shutdown_base() {
  * everything else = IRC
  */
 
-bool init() {
+//bool init() {
 	set_idivc_base_clocks(cgu::CLK_SEL::IDIVC);
 
 	i2c0.start(i2c_config_boot_clock);
